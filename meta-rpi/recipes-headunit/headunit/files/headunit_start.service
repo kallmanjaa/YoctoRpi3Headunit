@@ -1,0 +1,10 @@
+[Unit]
+Description=headunit
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/headunit
+
+[Install]
+WantedBy=multi-user.target
+
