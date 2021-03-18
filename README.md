@@ -39,5 +39,6 @@
     This is just a hobby project, do not use it on your real driving car.
  
 ## DEMO:
-    https://user-images.githubusercontent.com/39487123/111695171-17dcfb80-8833-11eb-97d6-c4fd43606551.mp4
+    https://user-images.githubusercontent.com/39487123/111695544-8326cd80-8833-11eb-8c3f-eedc1aa4e4f7.mp4
+
 
