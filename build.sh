@@ -23,14 +23,16 @@ local_conf(){
 	PARALLEL_MAKE = "-j 9"
 	GPU_MEM = "16"
 	IMAGE_FSTYPES = "tar.gz wic"
-	DISTRO_FEATURES_append = " systemd wayland"
+	DISTRO_FEATURES_append = " systemd "
 	DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
 	VIRTUAL-RUNTIME_init_manager = "systemd"
 	VIRTUAL-RUNTIME_initscripts = ""
 	LICENSE_FLAGS_WHITELIST = "commercial"
 	PREFERRED_PROVIDER_gstreamer1.0-plugins-bad = "gstreamer1.0-plugins-bad"
 	PREFERRED_PROVIDER_libusb1 = "libusb1"
-	CORE_IMAGE_EXTRA_INSTALL += "wayland weston"
+	PREFERRED_PROVIDER_libunwind = "libunwind"
+	PREFERRED_PROVIDER_libsdl2 = "libsdl2"
+	PREFERRED_PROVIDER_gstreamer1.0 = "gstreamer1.0"
 	EOL
 }
 

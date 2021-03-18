@@ -52,12 +52,10 @@ do_compile () {
 
 do_install(){
        install -d ${D}${bindir}
-       install -m 0755 ${S}/ubuntu/headunit ${D}${bindir}/
-	
+       install -m 0755 ${S}/ubuntu/headunit ${D}${bindir}/	
 }
 
 SRC_URI += " file://headunit_start.service"
-DISTRO_FEATURES_append = "systemd"
 
 SYSTEMD_AUTO_ENABLE = "enable"
 SYSTEMD_SERVICE_${PN} = "headunit_start.service"

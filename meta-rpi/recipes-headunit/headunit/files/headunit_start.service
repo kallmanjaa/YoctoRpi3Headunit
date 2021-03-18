@@ -3,8 +3,7 @@ Description=headunit
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/headunit
+ExecStart=/usr/bin/startx /usr/bin/headunit
 
 [Install]
 WantedBy=multi-user.target
-

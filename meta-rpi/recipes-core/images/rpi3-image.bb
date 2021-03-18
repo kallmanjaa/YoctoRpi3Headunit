@@ -22,8 +22,19 @@ IMAGE_INSTALL_append += "\
 		nss \
 		ttf-dejavu-serif \
 		networkmanager \
+		dbus \
 		headunit \
+		curl \
+		gstreamer1.0 \
+		gstreamer1.0-plugins-bad \
+		gstreamer1.0-plugins-base-apps \
+		gstreamer1.0-plugins-base \
+		gstreamer1.0-libav \
+		gstreamer1.0-plugins-good \
+		gstreamer1.0-plugins-base-alsa \
 		"
+
+IMAGE_FEATURES += " x11"
 
 DEPENDS += "boot"
 
