@@ -15,7 +15,7 @@ IMAGE_INSTALL_append += "\
 		alsa-lib \
 		nss \
 		ttf-dejavu-serif \
-		networkmanager \
+		connman \
 		headunit \
 		curl \
 		gstreamer1.0 \
