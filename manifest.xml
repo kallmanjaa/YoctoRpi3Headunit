@@ -5,7 +5,7 @@
   <remote name="oe" fetch="https://git.openembedded.org/meta-openembedded" />
   <remote name="rpi" fetch="https://github.com/kallmanjaa/YoctoRpi3Headunit.git" />
 
-  <project remote="poky" revision="c9bd4984f8f471ca2c43052714f4413ba99cf171" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="c9bd4984f8f471ca2c43052714f4413ba99cf171" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="poky" revision="c9bd4984f8f471ca2c43052714f4413ba99cf171" name="sumo" path="sources/poky"/>
+  <project remote="oe" revision="c9bd4984f8f471ca2c43052714f4413ba99cf171" name="sumo" path="sources/meta-openembedded"/>
 
 </manifest>
