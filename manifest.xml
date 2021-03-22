@@ -7,7 +7,7 @@
 
   <project remote="yocto" revision="sumo" name="poky" path="sources/poky"/>
   <project remote="oe" revision="sumo" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="rpi" revision="develop" name="YoctoRpi3Headunit" path="sources/YoctoRpi3Headunit"/>
+  <project remote="rpi" revision="develop" name="YoctoRpi3Headunit/meta-rpi" path="sources/meta-rpi"/>
 
 
 </manifest>
