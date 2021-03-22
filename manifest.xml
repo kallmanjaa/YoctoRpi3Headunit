@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/kallmanjaa" name="rpi" />
+
+  <project remote="rpi" revision="develop" name="YoctoRpi3Headunit" path="sources/YoctoRpi3Headunit"/>
+  <project remote="yocto" revision="sumo" name="poky" path="sources/YoctoRpi3Headunit/poky"/>
+  <project remote="oe" revision="sumo" name="meta-openembedded" path="sources/YoctoRpi3Headunit/meta-openembedded"/>
+
+
+</manifest>

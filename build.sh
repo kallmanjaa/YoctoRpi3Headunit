@@ -62,7 +62,7 @@ bitbake_command(){
 }
 
 main(){
-	clone_poky_sumo
+	# clone_poky_sumo
 	build_env_setup
 	bblayers_conf
 	local_conf

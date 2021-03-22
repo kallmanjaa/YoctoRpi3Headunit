@@ -18,11 +18,16 @@
     Next Project/learning: understand how Andorid Auto protocol is working from the source code
 
 # Get started
+
+## Manifest
+    repo init -u https://github.com/kallmanjaa/YoctoRpi3Headunit.git -b feature/manifest -m manifest.xml
+    repo sync
+
 ## Docker
     used docker to replicate same build env everywhere
     ubuntu 18.04
     docker build -t kalmanjaa_yocto .
-    docker run --rm --user=kalmanjaa --name test_yocto -v ${PWD}/../YoctoRpi3Headunit:/YoctoRpi3Headunit -it kalmanjaa_yocto /bin/bash
+    docker run --rm --user=kallmanjaa --name test_yocto -v ${PWD}/../YoctoRpi3Headunit:/YoctoRpi3Headunit -it kalmanjaa_yocto /bin/bash
     
 ## Usage 
     In the docker env,
