@@ -20,7 +20,7 @@
 # Get started
 
 ## Manifest
-    repo init -u https://github.com/kallmanjaa/YoctoRpi3Headunit.git -b feature/manifest -m manifest.xml
+    repo init -u https://github.com/kallmanjaa/YoctoRpi3Headunit.git -b develop -m manifest.xml
     repo sync
 
 ## Docker
