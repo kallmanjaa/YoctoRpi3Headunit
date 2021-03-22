@@ -21,20 +21,20 @@ RUN dpkg --add-architecture amd64 \
 	gcc-multilib \
 	g++-multilib \
 	libc6-dev-i386 \
-    	build-essential \
-    	libfontconfig1-dev \
-    	libnss3-dev \
-    	ninja-build \
-    	chrpath \
-    	socat \
-    	gperf \
-    	bison \
-    	flex \
-    	pkg-config \
-    	libpng-dev \
-    	libsdl1.2-dev \
-    	xterm \
-    	libstdc++6 \
+    build-essential \
+    libfontconfig1-dev \
+    libnss3-dev \
+    ninja-build \
+    chrpath \
+    socat \
+    gperf \
+    bison \
+    flex \
+    pkg-config \
+    libpng-dev \
+    libsdl1.2-dev \
+    xterm \
+    libstdc++6 \
 	openssh-client \
 	rsync \
 	cpio \
